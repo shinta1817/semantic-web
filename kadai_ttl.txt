@@ -1,0 +1,62 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "kadai"@ja ;
+
+      cc:license <http://creativecommons.org/publicdomain/zero/1.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s8449i#%E7%90%83%E6%95%B0>
+      rdf:type rdf:Property ;
+      rdfs:label "球数"@ja .
+<http://linkdata.org/property/rdf1s8449i#%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF%E7%8E%87>
+      rdf:type rdf:Property ;
+      rdfs:label "ストライク率"@ja .
+<http://linkdata.org/property/rdf1s8449i#%E7%A9%BA%E6%8C%AF%E3%82%8A%E7%8E%87>
+      rdf:type rdf:Property ;
+      rdfs:label "空振り率"@ja .
+
+<http://linkdata.org/resource/rdf1s8449i#all>
+      <http://www.w3.org/2000/01/rdf-schema#label> "all"@ja, "全投球"@ja ;
+      <http://linkdata.org/property/rdf1s8449i#%E7%90%83%E6%95%B0> "111"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8449i#%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF%E7%8E%87> "0.514"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8449i#%E7%A9%BA%E6%8C%AF%E3%82%8A%E7%8E%87> "0.153"^^xsd:float .
+
+<http://linkdata.org/resource/rdf1s8449i#straight>
+      <http://www.w3.org/2000/01/rdf-schema#label> "straight"@ja, "ストレート"@ja ;
+      <http://linkdata.org/property/rdf1s8449i#%E7%90%83%E6%95%B0> "48"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8449i#%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF%E7%8E%87> "0.563"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8449i#%E7%A9%BA%E6%8C%AF%E3%82%8A%E7%8E%87> "0.042"^^xsd:float .
+
+<http://linkdata.org/resource/rdf1s8449i#cutball>
+      <http://www.w3.org/2000/01/rdf-schema#label> "cutball"@ja, "カットボール"@ja ;
+      <http://linkdata.org/property/rdf1s8449i#%E7%90%83%E6%95%B0> "26"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8449i#%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF%E7%8E%87> "0.577"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8449i#%E7%A9%BA%E6%8C%AF%E3%82%8A%E7%8E%87> "0.231"^^xsd:float .
+
+<http://linkdata.org/resource/rdf1s8449i#two-seam>
+      <http://www.w3.org/2000/01/rdf-schema#label> "two-seam"@ja, "ツーシーム"@ja ;
+      <http://linkdata.org/property/rdf1s8449i#%E7%90%83%E6%95%B0> "25"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8449i#%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF%E7%8E%87> "0.4"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8449i#%E7%A9%BA%E6%8C%AF%E3%82%8A%E7%8E%87> "0.24"^^xsd:float .
+
+<http://linkdata.org/resource/rdf1s8449i#slider>
+      <http://www.w3.org/2000/01/rdf-schema#label> "slider"@ja, "スライダー"@ja ;
+      <http://linkdata.org/property/rdf1s8449i#%E7%90%83%E6%95%B0> "9"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8449i#%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF%E7%8E%87> "0.444"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8449i#%E7%A9%BA%E6%8C%AF%E3%82%8A%E7%8E%87> "0.222"^^xsd:float .
+
+<http://linkdata.org/resource/rdf1s8449i#changeup>
+      <http://www.w3.org/2000/01/rdf-schema#label> "changeup"@ja, "チェンジアップ"@ja ;
+      <http://linkdata.org/property/rdf1s8449i#%E7%90%83%E6%95%B0> "2"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8449i#%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF%E7%8E%87> "0.5"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8449i#%E7%A9%BA%E6%8C%AF%E3%82%8A%E7%8E%87> "0"^^xsd:float .
+
+<http://linkdata.org/resource/rdf1s8449i#curve>
+      <http://www.w3.org/2000/01/rdf-schema#label> "curve"@ja, "カーブ"@ja ;
+      <http://linkdata.org/property/rdf1s8449i#%E7%90%83%E6%95%B0> "1"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8449i#%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF%E7%8E%87> "0"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s8449i#%E7%A9%BA%E6%8C%AF%E3%82%8A%E7%8E%87> "1"^^xsd:float .
+
