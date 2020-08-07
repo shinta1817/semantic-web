@@ -1,0 +1,278 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "kadai"@ja ;
+
+      cc:license <http://creativecommons.org/publicdomain/zero/1.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F>
+      rdf:type rdf:Property ;
+      rdfs:label "球速"@ja .
+<http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE>
+      rdf:type rdf:Property ;
+      rdfs:label "球種"@ja .
+<http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C>
+      rdf:type rdf:Property ;
+      rdfs:label "結果"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#1st%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "1st pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "147"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ストレート"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "ボール"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#2nd%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2nd pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "147"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ストレート"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "ボール"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#3rd%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "3rd pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "147"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ストレート"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "見逃し"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#4th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "4th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "148"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ストレート"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "ボール"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#5th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "5th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "148"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ストレート"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "見逃し"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#6th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "6th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "140"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ツーシーム"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "空振り三振"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#7th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "7th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "149"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ストレート"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "ファウル"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#8th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "8th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "127"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "スライダー"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "ボール"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#9th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "9th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "138"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "カットボール"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "ファウル"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#10th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "10th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "150"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ストレート"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "ショートゴロ"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#11th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "11th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "125"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "スライダー"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "ボール"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#12th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "12th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "136"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "カットボール"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "見逃し"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#13th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "13th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "140"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ツーシーム"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "見逃し"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#14th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "14th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "149"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ストレート"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "ボール"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#15th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "15th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "129"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "スライダー"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "ボール"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#16th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "16th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "138"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "カットボール"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "空振り三振"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#17th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "17th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "139"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "カットボール"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "ボール"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#18th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "18th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "138"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ツーシーム"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "見逃し"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#19th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "19th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "139"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "カットボール"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "ファウル"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#20th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "20th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "141"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ツーシーム"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "空振り三振"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#21st%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "21st pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "147"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ストレート"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "見逃し"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#22nd%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "22nd pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "150"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ストレート"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "ボール"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#23rd%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "23rd pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "139"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "カットボール"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "空振り"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#24th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "24th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "149"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ストレート"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "ボール"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#25th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "25th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "149"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ストレート"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "ファウル"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#26th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "26th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "136"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "カットボール"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "ピッチャーゴロ"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#27th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "27th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "138"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "カットボール"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "空振り"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#28th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "28th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "150"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ストレート"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "ボール"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#29th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "29th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "150"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ストレート"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "見逃し"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#30th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "30th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "140"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ストレート"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "ボール"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#31st%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "31st pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "138"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "カットボール"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "空振り三振"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#32nd%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "32nd pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "137"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ツーシーム"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "見逃し"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#33rd%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "33rd pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "139"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "カットボール"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "ボール"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#34th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "34th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "148"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ストレート"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "ファウル"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#35th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "35th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "148"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ストレート"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "見逃し三振"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#36th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "36th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "137"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ツーシーム"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "見逃し"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#37th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "37th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "129"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "チェンジアップ"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "ファウル"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#38th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "38th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "149"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ストレート"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "ボール"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#39th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "39th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "136"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "カットボール"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "ファウル"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#40th%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "40th pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "139"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ツーシーム"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "空振り三振"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#41st%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "41st pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "147"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "ストレート"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "見逃し"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#42nd%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "42nd pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "129"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "スライダー"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "空振り"@ja .
+
+<http://linkdata.org/resource/rdf1s8448i#43rd%20pitch>
+      <http://www.w3.org/2000/01/rdf-schema#label> "43rd pitch"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E9%80%9F> "129"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%90%83%E7%A8%AE> "スライダー"@ja ;
+      <http://linkdata.org/property/rdf1s8448i#%E7%B5%90%E6%9E%9C> "空振り三振"@ja .
+
